@@ -1,0 +1,7 @@
+Observations regarding page behaviour:
+
+Widths where page contents shift:
+XS: 320px;
+S: 600px;
+M: 960px;
+L: 1280px;
