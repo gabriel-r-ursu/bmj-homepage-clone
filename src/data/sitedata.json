@@ -1,13 +1,14 @@
 {
   "headline": {
     "category": "Headlines",
-    "titles": [
-      {
-        "title": "Effect of nutritionally modified infant formula on academic performance: linkage of seven dormant randomised controlled trials to national education data",
-        "bio": "Children who are given nutrient or supplement enriched formula milk as babies do not appear to have higher exam scores as adolescents than those fed with standard formula, finds this study",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2Fbaby_bottle_iStock-637890304.jpg&w=1000&q=75"
-      },
 
+    "main": {
+      "title": "Effect of nutritionally modified infant formula on academic performance",
+      "bio": "Children who are given nutrient or supplement enriched formula milk as babies do not appear to have higher exam scores as adolescents than those fed with standard formula, finds this study",
+      "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2Fbaby_bottle_iStock-637890304.jpg&w=1000&q=75"
+    },
+
+    "titles": [
       {
         "title": "Exercise versus usual care after non-reconstructive breast cancer surgery",
         "bio": "Women who exercise shortly after having non-reconstructive breast cancer surgery appear to regain better shoulder and arm mobility and experience less pain than those who receive standard care, concludes this study",
