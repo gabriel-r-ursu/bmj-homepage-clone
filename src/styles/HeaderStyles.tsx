@@ -7,8 +7,8 @@ const HeaderWrapper = styled.header`
   gap: 0.5em;
 
   width: 100%;
-  height: 65px;
-  padding: 0 2rem 0 1rem;
+  height: 60px;
+  padding: 0 3rem 0 1rem;
 
   background-color: #2a6ebb;
 
