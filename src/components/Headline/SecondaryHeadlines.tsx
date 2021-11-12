@@ -15,6 +15,7 @@ const SecondaryHeadlines: React.FC = (): JSX.Element => {
       {secondaryHeadlineData.map((newsArticle) => {
         return (
           <SecondaryHeadline
+            key={newsArticle.title}
             title={newsArticle.title}
             bio={newsArticle.bio}
             img={newsArticle.img}
@@ -36,20 +37,22 @@ const SecondaryHeadline: React.FC<MainHeadlineProps> = ({
 }): JSX.Element => {
   return (
     <div className="secondary-headline">
-      <h3>{title}</h3>
+      <h3 className="mobile-title">{title}</h3>
       <div className="ltr">
-        <div className="bio">
-          <p>{bio}</p>
-        </div>
         <div className="headline-img">
           <img src={img} alt="mock img" className="headline-image" />
         </div>
+        <h3 className="desktop-title">{title}</h3>
+        <div className="bio">
+          <p>{bio}</p>
+        </div>
       </div>
       <div className="category-and-date">
-        <p>
+        <span>
           {category} | {date}
-        </p>
+        </span>
       </div>
+      <div className="separator"></div>
     </div>
   );
 };

@@ -7,16 +7,18 @@ const MainHeadlineSection: React.FC = (): JSX.Element => {
 
   return (
     <div className="headline">
-      <div className="main-headline">
-        <div className="text">
-          <h2>{mainHeadlineData.title}</h2>
-          <p>{mainHeadlineData.bio}</p>
+      <div className="main-headline-article">
+        <h2>{mainHeadlineData.title}</h2>
+        <div className="main-headline">
+          <div className="headline-bio">
+            <p>{mainHeadlineData.bio}</p>
+          </div>
+          <img
+            src={mainHeadlineData.img}
+            alt="baby bottle"
+            className="headline-image"
+          />
         </div>
-        <img
-          src={mainHeadlineData.img}
-          alt="baby bottle"
-          className="headline-image"
-        />
       </div>
       <SecondaryHeadlines />
     </div>

@@ -15,35 +15,130 @@ const HeadlinesWrapper = styled.section`
     h2 {
       font-size: 1.5rem;
     }
-  }
 
-  .secondary-headline {
-    width: 100%;
-  }
+    .secondary-headline {
+      width: 100%;
+      padding-top: 1rem;
 
-  .headline-image {
-    height: auto;
-    width: 100%;
-  }
+      .desktop-title {
+        display: none;
+      }
+    }
 
-  .category-and-date {
-    display: flex;
+    .headline-image {
+      height: auto;
+      width: 100%;
+    }
 
-    p {
-      font-size: 12px;
+    .category-and-date {
+      span {
+        padding: 0;
+        font-size: 12px;
+      }
+    }
+
+    .ltr {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 100%;
+
+      .bio {
+        width: 50%;
+      }
+
+      .headline-img {
+        width: 50%;
+      }
     }
   }
 
-  .ltr {
-    display: flex;
+  .separator {
     width: 100%;
+    border-top: 1px solid #e5e6e6;
+  }
 
-    .bio {
-      width: 50%;
+  .aside-article {
+    padding-top: 1rem;
+
+    &:last-of-type > .separator {
+      border: none;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .main-headline-article {
+      background-color: #f2f2f2;
     }
 
-    .headline-img {
-      width: 50%;
+    .main-headline {
+      display: flex;
+
+      .headline-bio {
+        width: 50%;
+      }
+
+      .headline-image {
+        width: 50%;
+      }
+    }
+
+    .secondary-headlines {
+      display: flex;
+      gap: 2rem;
+
+      .mobile-title {
+        display: none;
+      }
+
+      .secondary-headline {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .ltr {
+          flex-direction: column;
+          width: 100%;
+
+          .headline-img {
+            width: 100%;
+          }
+
+          .bio {
+            width: 100%;
+          }
+        }
+
+        .desktop-title {
+          display: block;
+        }
+      }
+    }
+
+    .aside-articles {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+
+      .aside-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  @media (min-width: 960px) {
+    flex-direction: row;
+    gap: 2rem;
+
+    .headline {
+      width: 75%;
+    }
+
+    .aside-articles {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
     }
   }
 `;
