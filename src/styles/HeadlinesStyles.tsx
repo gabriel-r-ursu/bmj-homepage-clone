@@ -13,7 +13,13 @@ const HeadlinesWrapper = styled.section`
     width: 100%;
 
     h2 {
+      padding: 1rem 0;
       font-size: 1.5rem;
+      font-weight: 400;
+    }
+
+    .main-headline-article .main-headline h2 {
+      display: none;
     }
 
     .secondary-headline {
@@ -67,11 +73,15 @@ const HeadlinesWrapper = styled.section`
 
   @media (min-width: 600px) {
     .main-headline-article {
+      padding-left: 1rem;
       background-color: #f2f2f2;
     }
 
     .main-headline {
       display: flex;
+      flex-direction: row-reverse;
+
+      text-align: left;
 
       .headline-bio {
         width: 50%;
@@ -133,6 +143,18 @@ const HeadlinesWrapper = styled.section`
 
     .headline {
       width: 75%;
+
+      .main-headline-article h2 {
+        display: none;
+      }
+
+      .main-headline-article .main-headline h2 {
+        display: block;
+      }
+    }
+
+    .secondary-headline > .separator {
+      display: none;
     }
 
     .aside-articles {

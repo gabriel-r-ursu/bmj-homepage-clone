@@ -1,5 +1,6 @@
 import React from "react";
 import { headline } from "../../data/sitedata.json";
+import { headerImage } from "../../img";
 import SecondaryHeadlines from "./SecondaryHeadlines";
 
 const MainHeadlineSection: React.FC = (): JSX.Element => {
@@ -10,14 +11,16 @@ const MainHeadlineSection: React.FC = (): JSX.Element => {
       <div className="main-headline-article">
         <h2>{mainHeadlineData.title}</h2>
         <div className="main-headline">
-          <div className="headline-bio">
-            <p>{mainHeadlineData.bio}</p>
-          </div>
           <img
-            src={mainHeadlineData.img}
+            //@ts-ignore
+            src={headerImage[mainHeadlineData.img]}
             alt="baby bottle"
             className="headline-image"
           />
+          <div className="headline-bio">
+            <h2>{mainHeadlineData.title}</h2>
+            <p>{mainHeadlineData.bio}</p>
+          </div>
         </div>
       </div>
       <SecondaryHeadlines />

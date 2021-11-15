@@ -5,14 +5,14 @@
     "main": {
       "title": "Effect of nutritionally modified infant formula on academic performance",
       "bio": "Children who are given nutrient or supplement enriched formula milk as babies do not appear to have higher exam scores as adolescents than those fed with standard formula, finds this study",
-      "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2Fbaby_bottle_iStock-637890304.jpg&w=1000&q=75"
+      "img": "/baby-bottle.jpeg"
     },
 
     "titles": [
       {
         "title": "Exercise versus usual care after non-reconstructive breast cancer surgery",
         "bio": "Women who exercise shortly after having non-reconstructive breast cancer surgery appear to regain better shoulder and arm mobility and experience less pain than those who receive standard care, concludes this study",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2FBreast_cancer_surgery_C0351936.jpg&w=600&q=75",
+        "img": "./operation.jpg",
         "category": "Research",
         "publishDate": "Nov 11"
       },
@@ -20,7 +20,7 @@
       {
         "title": "Have international in-person medical meetings had their day?",
         "bio": "The pandemic has changed how conferences are conducted. Richard Smith says that now is the time to change the status quo forever. But Viknesh Sounderajah and Ara Darzi argue that going entirely virtual would lose many of the features that make meetings so valuable",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2Fconference_iStock-482800079.jpg&w=600&q=75",
+        "img": "./microphone.jpg",
         "category": "Head To Head",
         "publishDate": "Nov 10"
       },
@@ -28,7 +28,7 @@
       {
         "title": "Covid-19: Researcher blows the whistle on data integrity issues in Pfizer’s vaccine trial",
         "bio": "Evidence from a whistleblower engaged in Pfizer’s pivotal covid-19 vaccine trial raises serious questions about data integrity and regulatory oversight",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2Fcovid_pfizer_vaccine_vial_PA-57612798.jpg&w=600&q=75",
+        "img": "./covid-vaccine.jpg",
         "category": "Feature",
         "publishDate": "Nov 2"
       }
@@ -83,7 +83,7 @@
     "titles": [
       {
         "category": "News",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2Fsingapore_vaccine_advert_2DAH7DH.jpg&w=600&q=75",
+        "img": "./singapore-vaccine-advert.jpg",
         "titles": [
           "Covid-19: Singaporeans who remain “unvaccinated by choice” must fund own treatment, says government",
           "Covid-19: Pfizer vaccine provides 90% protection against infection in children aged 5-11, study finds",
@@ -97,7 +97,7 @@
       },
       {
         "category": "Research",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2Fdefibrillator_W3WBEF.jpg&w=600&q=75",
+        "img": "./defibrilator.jpg",
         "titles": [
           "Epinephrine before defibrillation in patients with shockable in-hospital cardiac arrest",
           "Use of whole genome sequencing to determine genetic basis of suspected mitochondrial disorders",
@@ -110,7 +110,7 @@
       },
       {
         "category": "Comment",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2FBreast_cancer_surgery_C0351936.jpg&w=600&q=75",
+        "img": "./operation.jpg",
         "titles": [
           "Decarbonising healthcare in low and middle income countries: potential pathways to net zero emissions",
           "We should move away from a focus on individual resilience towards building resilient systems",
@@ -124,7 +124,7 @@
       },
       {
         "category": "Education",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F11%2FNon-small_cell_lung_cancer_CT_PET_scan_C0071648.jpg&w=600&q=75",
+        "img": "./ct-scan.jpg",
         "titles": [
           "Advances in systemic therapy for non-small cell lung cancer",
           "Obstructive sleep apnoea/hypopnoea syndrome and obesity hyperventilation syndrome in over 16s: summary of NICE guidance",
@@ -142,14 +142,14 @@
     "headlines": [
       {
         "title": "Priority setting and net zero healthcare: how much health can a tonne of carbon buy?",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F10%2Fcarbon_emissions_countries_fig.jpg&w=200&q=75",
+        "img": "./data1.jpg",
         "description": "Cutting carbon emissions in healthcare requires trade-offs for clinicians, administrators, and global health policy makers and must be included when evaluating interventions, argue Anand Bhopal and Ole F Norheim",
         "category": "Analysis",
         "publishDate": "Oct 28"
       },
       {
         "title": "Accelerating climate action: the role of health professionals",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F10%2Fclimate_change_planet_stretcher.jpg&w=200&q=75",
+        "img": "./planet-stretcher.jpg",
         "description": "Time is running out to reverse, or even halt, the damage done by humanity to our planet. Both individual action and promotion of systemic change are essential",
         "category": "Editorial",
         "publishDate": "Oct 7"
@@ -184,14 +184,14 @@
     "headlines": [
       {
         "title": "Covid-19: global vaccine production is a mess and shortages are down to more than just hoarding",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F10%2Fcovid_vaccine_production_line_2GADN96.jpg&w=200&q=75",
+        "img": "./covid-vaccine-production.jpg",
         "description": "Vaccination efforts around the world are being restrained by a shortage of doses. Jane Feinmann looks at what is holding up the process",
         "category": "Feature",
         "publishDate": "Oct 28"
       },
       {
         "title": "Covid-19 treatments and vaccines must be evaluated in pregnancy",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fbmj-chicken.bmj.com%2Fthebmj%2Fwp-content%2Fuploads%2Fsites%2F4%2F2021%2F10%2Fpregnant_woman_covid_vaccine-2EB2XBX.jpg&w=200&q=75",
+        "img": "./pregnant-woman-vaccinated.jpg",
         "description": "Pregnant women should be included in drug and vaccine development from the outset, argues this Editorial",
         "category": "Editorial",
         "publishDate": "Oct 14"
@@ -235,7 +235,7 @@
 
   "magazine": {
     "title": "Current Issue",
-    "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fwww.bmj.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fcover_360_480%2Fpublic%2Fhighwire%2Fbmj%2F375%2F8313.cover-source.jpg%3Fitok%3DXe43Ghwt&w=400&q=75",
+    "img": "./latest-issue.jpg",
     "articles": [
       {
         "title": "Under-reporting of deaths limits our understanding of true burden of covid-19",
@@ -303,22 +303,22 @@
     "titles": [
       {
         "title": "Covid-19: Researcher blows the whistle on data integrity issues in Pfizer’s vaccine trial",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fapi.altmetric.com%2Fv1%2Fdonut%2F116132730_240.png&w=130&q=75",
+        "img": "/alt1.png",
         "date": "Nov 2, 2021"
       },
       {
         "title": "Risk of mortality in patients infected with SARS-CoV-2 variant of concern 202012/1: matched cohort study",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fapi.altmetric.com%2Fv1%2Fdonut%2F101638179_240.png&w=130&q=75",
+        "img": "/alt2.png",
         "date": "Mar 9, 2021"
       },
       {
         "title": "Covid-19: Social murder, they wrote—elected, unaccountable, and unrepentant",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fapi.altmetric.com%2Fv1%2Fdonut%2F99361857_240.png&w=130&q=75",
+        "img": "/alt3.png",
         "date": "Feb 3, 2021"
       },
       {
         "title": "Covid-19: FDA set to grant full approval to Pfizer vaccine without public discussion of data",
-        "img": "https://thebmj-frontend.bmj.com/_next/image?url=https%3A%2F%2Fapi.altmetric.com%2Fv1%2Fdonut%2F112108114_240.png&w=130&q=75",
+        "img": "/alt4.png",
         "date": "Aug 20, 2021"
       }
     ]
