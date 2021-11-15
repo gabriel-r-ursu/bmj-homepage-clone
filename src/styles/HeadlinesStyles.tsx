@@ -12,12 +12,6 @@ const HeadlinesWrapper = styled.section`
   .headline {
     width: 100%;
 
-    h2 {
-      padding: 1rem 0;
-      font-size: 1.5rem;
-      font-weight: 400;
-    }
-
     .main-headline-article .main-headline h2 {
       display: none;
     }
@@ -68,6 +62,13 @@ const HeadlinesWrapper = styled.section`
 
     &:last-of-type > .separator {
       border: none;
+    }
+
+    .category-and-date {
+      span {
+        padding: 0;
+        font-size: 12px;
+      }
     }
   }
 

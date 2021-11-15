@@ -7,14 +7,6 @@ const MainContainer = styled.div`
 
   width: 100%;
 
-  p {
-    padding: 0.5rem 0;
-
-    font-size: 0.9rem;
-    font-weight: 100;
-    color: #494c4d;
-  }
-
   .advertisment {
     @media (min-width: 1280px) {
       padding: 75px 0;

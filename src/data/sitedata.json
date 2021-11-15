@@ -93,7 +93,8 @@
           "Covid-19: Release of JCVI minutes prompts more questions over committee’s decisions",
           "Sixty seconds on . . . hanging around",
           "NHS lacks the fundamental tools required to tackle discrimination, report warns"
-        ]
+        ],
+        "class": "latest-articles-blue"
       },
       {
         "category": "Research",
@@ -106,7 +107,8 @@
           "Inhaled and intranasal ciclesonide for the treatment of covid-19 in adult outpatients",
           "Cardioversion in patients with newly diagnosed non-valvular atrial fibrillation",
           "Strengthening the reporting of observational studies in epidemiology using mendelian randomisation (STROBE-MR): explanation and elaboration"
-        ]
+        ],
+        "class": "latest-articles-purple"
       },
       {
         "category": "Comment",
@@ -120,7 +122,8 @@
           "What did the spending review do for population health?",
           "The failure of provision for neurodiverse children during the covid-19 pandemic",
           "Covid-19 and ethnicity: we must seek to understand the drivers of higher transmission"
-        ]
+        ],
+        "class": "latest-articles-red"
       },
       {
         "category": "Education",
@@ -132,7 +135,8 @@
           "Home based rehabilitation after a knee replacement is as effective as physiotherapy",
           "Providing effective evidence based support for breastfeeding women in primary care",
           "Loneliness is strongly linked to depression among older adults, a long term study suggests"
-        ]
+        ],
+        "class": "latest-articles-green"
       }
     ]
   },

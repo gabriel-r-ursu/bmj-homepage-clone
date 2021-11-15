@@ -3,11 +3,12 @@ import { headline } from "../../data/sitedata.json";
 interface ArticleProps {
   title: string;
   category: string;
-  publishDate: string;
+  publishDate?: string;
 }
 
+const asideContent = headline.aside;
+
 const Aside = () => {
-  const asideContent = headline.aside;
   return (
     <div className="aside-articles">
       {asideContent.map((article) => {
@@ -31,11 +32,13 @@ const Article: React.FC<ArticleProps> = ({
 }): JSX.Element => {
   return (
     <div className="aside-article">
-      <div className="title">{title}</div>
+      <div className="title">
+        <p>{title}</p>
+      </div>
       <div className="category-and-date">
-        <p>
+        <span>
           {category} | {publishDate}
-        </p>
+        </span>
       </div>
       <div className="separator"></div>
     </div>

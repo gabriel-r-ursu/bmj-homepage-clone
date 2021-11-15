@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Login from "./components/Login";
 import XSHeaderAd from "./img/ads/XS-header-ad.png";
 import Headlines from "./components/Headline/Headlines";
+import LatestArticles from "./components/LatestArticles";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <AppContainer>
         <Headlines />
+        <LatestArticles />
       </AppContainer>
     </MainContainer>
   );
