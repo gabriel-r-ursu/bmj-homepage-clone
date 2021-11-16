@@ -1,4 +1,6 @@
-import { headline } from "../../data/sitedata.json";
+interface AsideProps {
+  data: any;
+}
 
 interface ArticleProps {
   title: string;
@@ -6,12 +8,10 @@ interface ArticleProps {
   publishDate?: string;
 }
 
-const asideContent = headline.aside;
-
-const Aside = () => {
+const Aside: React.FC<AsideProps> = ({ data }): JSX.Element => {
   return (
     <div className="aside-articles">
-      {asideContent.map((article) => {
+      {data.aside.map((article: any) => {
         return (
           <Article
             key={article.title}
@@ -37,7 +37,7 @@ const Article: React.FC<ArticleProps> = ({
       </div>
       <div className="category-and-date">
         <span>
-          {category} | {publishDate}
+          {category} {publishDate}
         </span>
       </div>
       <div className="separator"></div>

@@ -30,12 +30,9 @@ const latestArticlesImages = {
   "./ct-scan.jpg": CTScan,
 };
 
-const climateArticleImages = {
+const studiesImages = {
   "./data1.jpg": Data1,
   "./planet-stretcher.jpg": Planet,
-};
-
-const covidArticleImages = {
   "./covid-vaccine-production.jpg": CovidProduction,
   "./pregnant-woman-vaccinated.jpg": VaccinatedWoman,
 };
@@ -53,8 +50,7 @@ export {
   headerImage,
   headlineImages,
   latestArticlesImages,
-  climateArticleImages,
-  covidArticleImages,
+  studiesImages,
   latestIssue,
   altmetrics,
 };

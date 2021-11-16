@@ -13,7 +13,7 @@
         "title": "Exercise versus usual care after non-reconstructive breast cancer surgery",
         "bio": "Women who exercise shortly after having non-reconstructive breast cancer surgery appear to regain better shoulder and arm mobility and experience less pain than those who receive standard care, concludes this study",
         "img": "./operation.jpg",
-        "category": "Research",
+        "category": "Research |",
         "publishDate": "Nov 11"
       },
 
@@ -21,7 +21,7 @@
         "title": "Have international in-person medical meetings had their day?",
         "bio": "The pandemic has changed how conferences are conducted. Richard Smith says that now is the time to change the status quo forever. But Viknesh Sounderajah and Ara Darzi argue that going entirely virtual would lose many of the features that make meetings so valuable",
         "img": "./microphone.jpg",
-        "category": "Head To Head",
+        "category": "Head To Head |",
         "publishDate": "Nov 10"
       },
 
@@ -29,50 +29,50 @@
         "title": "Covid-19: Researcher blows the whistle on data integrity issues in Pfizer’s vaccine trial",
         "bio": "Evidence from a whistleblower engaged in Pfizer’s pivotal covid-19 vaccine trial raises serious questions about data integrity and regulatory oversight",
         "img": "./covid-vaccine.jpg",
-        "category": "Feature",
+        "category": "Feature |",
         "publishDate": "Nov 2"
       }
     ],
     "aside": [
       {
         "title": "COP26 diary: the health clans gather",
-        "category": "Opinion",
+        "category": "Opinion |",
         "publishDate": "Nov 10"
       },
 
       {
         "title": "Covid-19: Pandemic reduced life expectancy in most developed countries, study finds",
-        "category": "News",
+        "category": "News |",
         "publishDate": "Nov 10"
       },
 
       {
         "title": "Inquiry into maternity care at Nottingham trust to investigate if incidents were downgraded",
-        "category": "News",
+        "category": "News |",
         "publishDate": "Nov 10"
       },
 
       {
         "title": "MPs press for investigation of covid related contracts during “sleaze” debate on standards",
-        "category": "News",
+        "category": "News |",
         "publishDate": "Nov 10"
       },
 
       {
         "title": "David Oliver: The cultural problems still affecting PPE provision",
-        "category": "Views & Reviews",
+        "category": "Views & Reviews |",
         "publishDate": "Nov 10"
       },
 
       {
         "title": "Covid-19: BMA asks doctors to submit evidence on UK’s pandemic response",
-        "category": "News",
+        "category": "News |",
         "publishDate": "Nov 10"
       },
 
       {
         "title": "Long covid: new wine in need of new bottles",
-        "category": "Opinion",
+        "category": "Opinion |",
         "publishDate": "Nov 9"
       }
     ]
@@ -162,22 +162,22 @@
     "aside": [
       {
         "title": "COP26 diary: making health central to tackling climate change",
-        "category": "Opinion",
+        "category": "Opinion |",
         "publishDate": "Nov 8"
       },
       {
         "title": "Memo to COP26 leaders: abandon your hubris, politics, and pride and see the future through young people’s eyes",
-        "category": "Editor's Choice",
+        "category": "Editor's Choice |",
         "publishDate": "Oct 28"
       },
       {
         "title": "Urban heat: an increasing threat to global health",
-        "category": "Analysis",
+        "category": "Analysis |",
         "publishDate": "Oct 25"
       },
       {
         "title": "Changing behaviour for net zero 2050",
-        "category": "Analysis",
+        "category": "Analysis |",
         "publishDate": "Oct 7"
       }
     ]
@@ -204,36 +204,38 @@
     "aside": [
       {
         "title": "Covid-19: Just a third of blood cancer patients had antibodies against delta variant after two vaccine doses, study finds",
-        "category": "News",
+        "category": "News |",
         "publishDate": "Oct 27"
       },
       {
         "title": "Covid-19: Protect healthcare workers with vaccines, urges WHO after 115 000 die worldwide",
-        "category": "News",
+        "category": "News |",
         "publishDate": "Oct 22"
       },
       {
         "title": "Covid-19: Vaccines are highly effective in preventing deaths from delta variant, study indicates",
-        "category": "News",
+        "category": "News |",
         "publishDate": "Oct 21"
       },
       {
         "title": "Covid-19 vaccination: evidence of waning immunity is overstated",
-        "category": "Editorial",
+        "category": "Editorial |",
         "publishDate": "Sep 23"
       }
     ]
   },
 
   "jobs": {
-    "title": "UK Jobs",
-    "jobs": [
-      "West Coker Surgery: Salaried GP",
-      "Babylon: Salaried GPs",
-      "Babylon: Salaried GPs",
-      "Western Australia Country Health Service: Consultants, General Practitioners, Fellows and Senior Registrars",
-      "Honeypot Medical Centre: Salaried GP",
-      "Mullion Health Centre: Salaried GP"
+    "category": "UK Jobs",
+    "aside": [
+      { "title": "West Coker Surgery: Salaried GP" },
+      { "title": "Babylon: Salaried GPs" },
+      { "title": "Greece: Salaried GPs" },
+      {
+        "title": "Western Australia Country Health Service: Consultants, General Practitioners, Fellows and Senior Registrars"
+      },
+      { "title": "Honeypot Medical Centre: Salaried GP" },
+      { "title": "Mullion Health Centre: Salaried GP" }
     ]
   },
 
