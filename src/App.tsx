@@ -7,6 +7,7 @@ import XSHeaderAd from "./img/ads/XS-header-ad.png";
 import Headlines from "./components/Headline/Headlines";
 import LatestArticles from "./components/LatestArticles";
 import Studies from "./components/Studies/Studies";
+import CurrentIssue from "./components/CurrentIssue";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Headlines />
         <LatestArticles />
         <Studies />
+        <CurrentIssue />
       </AppWrapper>
     </MainContainer>
   );
