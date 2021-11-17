@@ -7,7 +7,7 @@ const MainHeadlineSection: React.FC = (): JSX.Element => {
   const mainHeadlineData = headline.main;
 
   return (
-    <div className="headline">
+    <div className="headline-wrapper">
       <div className="main-headline-article">
         <h2>{mainHeadlineData.title}</h2>
         <div className="main-headline">

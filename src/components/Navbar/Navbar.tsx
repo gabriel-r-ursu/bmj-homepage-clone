@@ -1,33 +1,29 @@
 import NavbarWrapper from "../../styles/NavbarStyles";
+import Menu from "@mui/icons-material/MenuOutlined";
+import SearchIcon from "@mui/icons-material/Search";
+import thebmjlogo from "../../img/thebmjlogo.png";
+import Navigation from "./Navigation";
 
-const Navbar: React.FC<{}> = () => {
+const Navbar: React.FC<{}> = (): JSX.Element => {
   return (
     <NavbarWrapper>
-      <ul className="menu-1">
-        <li>covid-19</li>
-        <li>
-          Research <span>&or;</span>
-        </li>
-        <li>
-          Education <span>&or;</span>
-        </li>
-        <li>
-          News & Views <span>&or;</span>
-        </li>
-        <li>
-          Campaigns <span>&or;</span>
-        </li>
-        <li>
-          Jobs <span>&or;</span>
-        </li>
-      </ul>
-      <ul className="menu-2">
-        <li>Archive</li>
-        <li>For authors</li>
-        <li>Hosted</li>
-      </ul>
+      <div className="wrapper">
+        <Menu className="menu" />
+        <img alt="the BMJ logo" src={thebmjlogo} className="logo" />
+        <Navigation />
+        <Search />
+      </div>
     </NavbarWrapper>
   );
 };
+
+function Search() {
+  return (
+    <div className="search">
+      <SearchIcon />
+      <span>Search</span>
+    </div>
+  );
+}
 
 export default Navbar;

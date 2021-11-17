@@ -51,10 +51,9 @@ const SecondaryHeadline: React.FC<MainHeadlineProps> = ({
       </div>
       <div className="category-and-date">
         <span>
-          {category} {date}
+          <span className="category">{category}</span> {date}
         </span>
       </div>
-      <div className="separator"></div>
     </div>
   );
 };

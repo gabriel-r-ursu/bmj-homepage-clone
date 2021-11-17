@@ -4,10 +4,17 @@ const LatestArticlesWrapper = styled.section`
   display: flex;
   flex-direction: column;
 
-  padding-top: 2rem;
-
   h2 {
     padding: none;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  p {
+    padding: 0.5rem 0;
+    font-weight: 400;
   }
 
   img {
@@ -17,6 +24,11 @@ const LatestArticlesWrapper = styled.section`
 
   .latest-articles-category {
     padding-bottom: 1rem;
+  }
+
+  .title:hover {
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   .latest-articles-blue {

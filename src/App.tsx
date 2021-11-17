@@ -1,8 +1,8 @@
 import GlobalStyle from "./styles/globalStyles";
-import AppContainer from "./styles/AppContainer";
+import AppWrapper from "./styles/AppStyles";
 import MainContainer from "./styles/MainContainer";
+import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header";
-import Login from "./components/Login";
 import XSHeaderAd from "./img/ads/XS-header-ad.png";
 import Headlines from "./components/Headline/Headlines";
 import LatestArticles from "./components/LatestArticles";
@@ -14,13 +14,13 @@ function App() {
       <GlobalStyle />
       <img src={XSHeaderAd} alt="mock header ad" className="advertisment" />
       <p>Intended for healthcare professionals</p>
-      <Login />
       <Header />
-      <AppContainer>
+      <Navbar />
+      <AppWrapper>
         <Headlines />
         <LatestArticles />
         <Studies />
-      </AppContainer>
+      </AppWrapper>
     </MainContainer>
   );
 }

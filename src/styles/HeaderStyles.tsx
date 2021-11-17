@@ -1,52 +1,43 @@
 import styled from "styled-components";
 
 const HeaderWrapper = styled.header`
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
+  display: none;
+  padding: 0 2rem;
 
-  width: 100%;
-  height: 60px;
-  padding: 0 3rem 0 1rem;
-
-  background-color: #2a6ebb;
-
-  .menu {
-    color: #ffffff;
-    font-size: 30px;
-
-    @media (min-width: 1280px) {
-      visibility: hidden;
-    }
-  }
-
-  .search {
+  .wrapper {
+    max-width: 1280px;
     display: flex;
     align-items: center;
-
-    position: relative;
+    justify-content: flex-end;
     height: 100%;
-    padding: 0 0.5rem;
-    cursor: pointer;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 
-    color: #77a2d3;
+  @media (min-width: 600px) {
+    display: block;
+    height: 35px;
+    width: 100%;
+    background-color: #e5e6e6;
+
+    font-size: 14px;
+
+    .menubar {
+      display: flex;
+      gap: 1.5rem;
+
+      color: #235b9a;
+    }
 
     span {
-      color: white;
-      @media (max-width: 1280px) {
-        display: none;
-      }
+      font-weight: 400;
     }
-  }
 
-  .search:hover {
-    background-color: #4f89c7;
-    color: white;
-  }
-
-  .logo {
-    cursor: pointer;
+    span:hover {
+      cursor: pointer;
+      color: #4f89c7;
+      text-decoration: underline;
+    }
   }
 `;
 

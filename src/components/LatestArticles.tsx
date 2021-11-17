@@ -45,7 +45,7 @@ const Section: React.FC<SectionProps> = ({
       <img src={img} alt="mock" />
       {titles.map((title) => {
         return (
-          <div key={title}>
+          <div key={title} className="title">
             <p>{title}</p>
           </div>
         );

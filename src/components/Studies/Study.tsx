@@ -1,5 +1,5 @@
+import React from "react";
 import { studiesImages } from "../../img";
-import Aside from "../Headline/Aside";
 
 interface StudyProps {
   data: any;
@@ -11,7 +11,7 @@ const Article: React.FC<StudyProps> = ({ data }) => {
       {data.headlines.map((headline: any) => {
         return (
           <div className="study-article">
-            <h2>{headline.title}</h2>
+            <h3>{headline.title}</h3>
             <div className="article-details">
               <div className="article-img">
                 {/*@ts-ignore*/}
@@ -21,9 +21,34 @@ const Article: React.FC<StudyProps> = ({ data }) => {
                 <p>{headline.description}</p>
               </div>
             </div>
-            <p>
-              {headline.category} | {headline.publishDate}
-            </p>
+            <div className="category-and-date">
+              <span>
+                <span className="category">{headline.category}</span> |{" "}
+                {headline.publishDate}
+              </span>
+            </div>
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
+const ArticleWithNoImage: React.FC<StudyProps> = ({ data }) => {
+  return (
+    <>
+      {data.aside.map((title: any) => {
+        return (
+          <div className="article">
+            <div className="title">
+              <h4>{title.title}</h4>
+            </div>
+            <div className="category-and-date">
+              <span>
+                <span className="category">{title.category}</span>{" "}
+                {title.publishDate}
+              </span>
+            </div>
           </div>
         );
       })}
@@ -36,11 +61,11 @@ const Study: React.FC<StudyProps> = ({ data }): JSX.Element => {
     <div className="studies">
       <h2>{data.category}</h2>
       <div className="study">
-        <div className="study-wrapper">
+        <div className="article-with-image">
           <Article key={data.title} data={data} />
         </div>
         <div className="aside-articles">
-          <Aside data={data} />
+          <ArticleWithNoImage data={data} />
         </div>
       </div>
     </div>

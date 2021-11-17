@@ -1,4 +1,6 @@
-interface AsideProps {
+import ArticleWithoutImages from "../styles/ArticlesWithoutImagesStyles";
+
+interface ArticlesWithoutImagesProps {
   data: any;
 }
 
@@ -8,9 +10,11 @@ interface ArticleProps {
   publishDate?: string;
 }
 
-const Aside: React.FC<AsideProps> = ({ data }): JSX.Element => {
+const ArticlesWithoutImages: React.FC<ArticlesWithoutImagesProps> = ({
+  data,
+}): JSX.Element => {
   return (
-    <div className="aside-articles">
+    <ArticleWithoutImages>
       {data.aside.map((article: any) => {
         return (
           <Article
@@ -21,7 +25,7 @@ const Aside: React.FC<AsideProps> = ({ data }): JSX.Element => {
           />
         );
       })}
-    </div>
+    </ArticleWithoutImages>
   );
 };
 
@@ -31,18 +35,17 @@ const Article: React.FC<ArticleProps> = ({
   publishDate,
 }): JSX.Element => {
   return (
-    <div className="aside-article">
+    <div className="article">
       <div className="title">
-        <p>{title}</p>
+        <h4>{title}</h4>
       </div>
       <div className="category-and-date">
         <span>
-          {category} {publishDate}
+          <span className="category">{category}</span> {publishDate}
         </span>
       </div>
-      <div className="separator"></div>
     </div>
   );
 };
 
-export default Aside;
+export default ArticlesWithoutImages;

@@ -1,66 +1,57 @@
 import styled from "styled-components";
 
 const NavbarWrapper = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-
-  height: 100%;
   width: 100%;
+  height: 60px;
+  padding: 0 2rem;
+  background-color: #2a6ebb;
 
-  .menu-1,
-  .menu-2 {
-    display: none;
-  }
-
-  /* NOTE: menu-1 and menu-2 brakes the DRY principle. How do I use the same bit of code but apply different break points based on the className or some other unique identifier?*/
-  .menu-1 {
-    @media (min-width: 960px) {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0 1rem;
-
-      height: 100%;
-
-      list-style-type: none;
-      color: white;
-    }
-  }
-
-  .menu-2 {
-    @media (min-width: 1280px) {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      height: 100%;
-
-      list-style-type: none;
-      color: white;
-    }
-  }
-
-  li {
+  .wrapper {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 5px;
-
+    justify-content: center;
+    gap: 0.5em;
+    margin: 0 auto;
     height: 100%;
+    max-width: 1280px;
+  }
+
+  .menu {
+    color: #ffffff;
+    font-size: 30px;
+
+    @media (min-width: 1280px) {
+      visibility: hidden;
+    }
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    height: 100%;
+    padding: 0 1rem;
     cursor: pointer;
-    padding: 0 0.5rem;
+
+    color: #77a2d3;
+
+    span {
+      color: white;
+      @media (max-width: 1280px) {
+        display: none;
+      }
+    }
   }
 
-  span {
-    vertical-align: text-top;
-    top: 0;
-
-    font-size: 10px;
-  }
-
-  li:hover {
+  .search:hover {
     background-color: #4f89c7;
     color: white;
+  }
+
+  .logo {
+    cursor: pointer;
   }
 `;
 
