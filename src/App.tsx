@@ -8,6 +8,7 @@ import Headlines from "./components/Headline/Headlines";
 import LatestArticles from "./components/LatestArticles";
 import Studies from "./components/Studies/Studies";
 import CurrentIssue from "./components/CurrentIssue";
+import MostRead from "./components/MostRead";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <LatestArticles />
         <Studies />
         <CurrentIssue />
+        <MostRead />
       </AppWrapper>
     </MainContainer>
   );

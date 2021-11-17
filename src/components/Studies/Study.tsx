@@ -10,7 +10,7 @@ const Article: React.FC<StudyProps> = ({ data }) => {
     <>
       {data.headlines.map((headline: any) => {
         return (
-          <div className="study-article">
+          <div className="study-article" key={headline.title}>
             <h3>{headline.title}</h3>
             <div className="article-details">
               <div className="article-img">
@@ -39,7 +39,7 @@ const ArticleWithNoImage: React.FC<StudyProps> = ({ data }) => {
     <>
       {data.aside.map((title: any) => {
         return (
-          <div className="article">
+          <div className="article" key={title.title}>
             <div className="title">
               <h4>{title.title}</h4>
             </div>

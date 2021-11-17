@@ -12,13 +12,13 @@ const ArticleTitles: React.FC<articleProps> = ({ data }) => {
     <div className="articles">
       {data.articles.map((article: any) => {
         return (
-          <div className="article">
+          <div className="article" key={article.title}>
             <div className="title">
               <h4>{article.title}</h4>
             </div>
             <div className="category-and-date">
               <span>
-                <span className="category">{article.category}</span>{" "}
+                <span className="category">{article.category}</span> |{" "}
                 {article.publishDate}
               </span>
             </div>

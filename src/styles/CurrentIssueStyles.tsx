@@ -9,6 +9,11 @@ const CurrentIssueWrapper = styled.section`
     font-weight: bold;
   }
 
+  h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
   .article {
     padding-top: 1rem;
     border-bottom: 1px solid #e5e6e6;
@@ -25,6 +30,7 @@ const CurrentIssueWrapper = styled.section`
     gap: 1rem;
 
     img {
+      cursor: pointer;
       height: auto;
       width: 100%;
     }
@@ -66,6 +72,9 @@ const CurrentIssueWrapper = styled.section`
   }
 
   @media (min-width: 960px) {
+    .issue-img-btn img {
+      width: 80%;
+    }
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 2rem;
