@@ -39,7 +39,7 @@ const studiesImages = {
 
 const latestIssue = { "./latest-issue.jpg": LatestIssue };
 
-const altmetrics = {
+const altmetricsImages = {
   "./alt1.png": Alt1,
   "./alt2.png": Alt2,
   "./alt3.png": Alt3,
@@ -52,5 +52,5 @@ export {
   latestArticlesImages,
   studiesImages,
   latestIssue,
-  altmetrics,
+  altmetricsImages,
 };

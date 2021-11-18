@@ -309,22 +309,22 @@
     "titles": [
       {
         "title": "Covid-19: Researcher blows the whistle on data integrity issues in Pfizer’s vaccine trial",
-        "img": "/alt1.png",
+        "img": "./alt1.png",
         "date": "Nov 2, 2021"
       },
       {
         "title": "Risk of mortality in patients infected with SARS-CoV-2 variant of concern 202012/1: matched cohort study",
-        "img": "/alt2.png",
+        "img": "./alt2.png",
         "date": "Mar 9, 2021"
       },
       {
         "title": "Covid-19: Social murder, they wrote—elected, unaccountable, and unrepentant",
-        "img": "/alt3.png",
+        "img": "./alt3.png",
         "date": "Feb 3, 2021"
       },
       {
         "title": "Covid-19: FDA set to grant full approval to Pfizer vaccine without public discussion of data",
-        "img": "/alt4.png",
+        "img": "./alt4.png",
         "date": "Aug 20, 2021"
       }
     ]

@@ -9,6 +9,7 @@ import LatestArticles from "./components/LatestArticles";
 import Studies from "./components/Studies/Studies";
 import CurrentIssue from "./components/CurrentIssue";
 import MostRead from "./components/MostRead";
+import Community from "./Community";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <CurrentIssue />
         <MostRead />
       </AppWrapper>
+      <Community />
     </MainContainer>
   );
 }
