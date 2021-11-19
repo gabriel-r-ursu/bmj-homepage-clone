@@ -68,6 +68,37 @@ const FooterWrapper = styled.footer`
     }
   }
 
+  .terms-and-conditions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tnc-options {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      align-content: center;
+      justify-content: center;
+
+      p {
+        font-size: 0.8rem;
+        padding: 0.3rem;
+        border-right: 1px solid white;
+
+        &:last-child {
+          border: none;
+        }
+      }
+    }
+
+    small {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 1rem;
+    }
+  }
+
   @media (min-width: 600px) {
     .wrapper {
       display: grid;
@@ -92,6 +123,19 @@ const FooterWrapper = styled.footer`
 
     .footer-navigation {
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .terms-and-conditions .tnc-options {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .terms-and-conditions {
+      small {
+        flex-direction: row;
+        gap: 2rem;
+      }
     }
   }
 `;

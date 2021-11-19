@@ -90,9 +90,7 @@ const TermsAndConditions: React.FC = (): JSX.Element => {
   return (
     <div className="terms-and-conditions">
       <div className="tnc-options">
-        <div>
-          <p>Cookie Settings</p>
-        </div>
+        <p>Cookie Settings</p>
         <p>Cookie Policy</p>
         <p>Privacy Policy</p>
         <p>Website T&Cs</p>
@@ -101,7 +99,8 @@ const TermsAndConditions: React.FC = (): JSX.Element => {
         <p>Sitemap</p>
       </div>
       <small>
-        Copyright © 2021 BMJ Publishing Group Ltd京ICP备15042040号-3
+        <span>Copyright © 2021 BMJ Publishing GroupLtd</span>
+        <span>京ICP备15042040号-3</span>
       </small>
     </div>
   );
