@@ -1,6 +1,6 @@
-import CommunityWrapper from "./styles/CommunityStyles";
-import { community, altmetrics } from "./data/sitedata.json";
-import { altmetricsImages } from "./img";
+import CommunityWrapper from "../styles/CommunityStyles";
+import { community, altmetrics } from "../data/sitedata.json";
+import { altmetricsImages } from "../img";
 
 interface CommunityProps {
   data: string[];
@@ -45,7 +45,7 @@ const Response: React.FC<CommunityProps> = ({ data }): JSX.Element => {
     <>
       {data.map((response: string) => {
         return (
-          <div className="response">
+          <div key={response} className="response">
             <p>{response}</p>
           </div>
         );
@@ -88,7 +88,7 @@ const Altmetric: React.FC<AltmetricsProps> = ({ altdata }): JSX.Element => {
     <>
       {altdata.map((title) => {
         return (
-          <div className="altmetric">
+          <div key={title.title} className="altmetric">
             <div className="alt-data-img">
               {/*@ts-ignore*/}
               <img src={altmetricsImages[title.img]} alt="metric" />

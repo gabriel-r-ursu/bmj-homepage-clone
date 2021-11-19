@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const CommunityWrapper = styled.section`
   width: 100%;
+  padding-bottom: 2rem;
 
   .wrapper {
     max-width: 1280px;
