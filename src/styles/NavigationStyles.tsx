@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const NavigationWrapper = styled.nav`
+export const NavigationWrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -33,13 +33,6 @@ const NavigationWrapper = styled.nav`
     font-weight: 400;
   }
 
-  span {
-    vertical-align: text-top;
-    top: 0;
-
-    font-size: 10px;
-  }
-
   li:hover {
     background-color: #4f89c7;
     color: white;
@@ -58,4 +51,42 @@ const NavigationWrapper = styled.nav`
   }
 `;
 
-export default NavigationWrapper;
+export const MobileNavigation = styled(NavigationWrapper)`
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: unset;
+  width: 100%;
+
+  .menu-1,
+  .menu-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: unset;
+  }
+
+  li {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid rgb(217, 217, 218, 0.5);
+  }
+
+  @media (min-width: 600px) {
+    .menu-2 li:last-of-type {
+      border: none;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .menu-1 {
+      display: none;
+    }
+
+    .menu-2 li:last-of-type {
+      border: none;
+    }
+  }
+`;

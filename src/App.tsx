@@ -1,7 +1,10 @@
+import { useState } from "react";
 import GlobalStyle from "./styles/globalStyles";
 import AppWrapper from "./styles/AppStyles";
 import MainContainer from "./styles/MainContainer";
+import MobileNavbar from "./components/Navbar/MobileNavbar";
 import Navbar from "./components/Navbar/Navbar";
+import { HeaderWrapper } from "./styles/HeaderStyles";
 import Header from "./components/Header";
 import XSHeaderAd from "./img/ads/XS-header-ad.png";
 import Headlines from "./components/Headline/Headlines";
@@ -13,22 +16,32 @@ import Community from "./components/Community";
 import Footer from "./components/Footer";
 
 function App() {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
-    <MainContainer>
+    <MainContainer clicked={click}>
       <GlobalStyle />
       <img src={XSHeaderAd} alt="mock header ad" className="advertisment" />
       <p>Intended for healthcare professionals</p>
-      <Header />
-      <Navbar />
-      <AppWrapper>
-        <Headlines />
-        <LatestArticles />
-        <Studies />
-        <CurrentIssue />
-        <MostRead />
-      </AppWrapper>
-      <Community />
-      <Footer />
+      <HeaderWrapper>
+        <Header />
+      </HeaderWrapper>
+      <div className="mobile">
+        <MobileNavbar clicked={click} />
+        <div>
+          <Navbar handleClick={handleClick} />
+          <AppWrapper>
+            <Headlines />
+            <LatestArticles />
+            <Studies />
+            <CurrentIssue />
+            <MostRead />
+          </AppWrapper>
+          <Community />
+          <Footer />
+        </div>
+      </div>
     </MainContainer>
   );
 }

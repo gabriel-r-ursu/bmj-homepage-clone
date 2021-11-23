@@ -1,16 +1,25 @@
-import NavbarWrapper from "../../styles/NavbarStyles";
 import Menu from "@mui/icons-material/MenuOutlined";
+import NavbarWrapper from "../../styles/NavbarStyles";
 import SearchIcon from "@mui/icons-material/Search";
 import thebmjlogo from "../../img/thebmjlogo.png";
 import Navigation from "./Navigation";
+import { NavigationWrapper } from "../../styles/NavigationStyles";
 
-const Navbar: React.FC<{}> = (): JSX.Element => {
+interface navbarprops {
+  handleClick: () => void;
+}
+
+const Navbar: React.FC<navbarprops> = ({ handleClick }): JSX.Element => {
   return (
     <NavbarWrapper>
       <div className="wrapper">
-        <Menu className="menu" />
+        <button onClick={handleClick}>
+          <Menu className="menu" />
+        </button>
         <img alt="the BMJ logo" src={thebmjlogo} className="logo" />
-        <Navigation />
+        <NavigationWrapper>
+          <Navigation />
+        </NavigationWrapper>
         <Search />
       </div>
     </NavbarWrapper>

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const NavbarWrapper = styled.nav`
+  display: flex;
   width: 100%;
   height: 60px;
   padding: 0 2rem;
@@ -10,19 +11,28 @@ const NavbarWrapper = styled.nav`
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 0.5em;
-    margin: 0 auto;
+    width: 100%;
     height: 100%;
     max-width: 1280px;
   }
+  button {
+    background-color: #2a6ebb;
+    border: none;
+    cursor: pointer;
 
-  .menu {
-    color: #ffffff;
-    font-size: 30px;
+    &:hover {
+      background-color: #4f89c7;
+    }
 
-    @media (min-width: 1280px) {
-      visibility: hidden;
+    .menu {
+      color: #ffffff;
+      font-size: 30px;
+
+      @media (min-width: 1280px) {
+        visibility: hidden;
+      }
     }
   }
 
@@ -52,6 +62,12 @@ const NavbarWrapper = styled.nav`
 
   .logo {
     cursor: pointer;
+  }
+
+  @media (min-width: 1280px) {
+    button {
+      display: none;
+    }
   }
 `;
 
