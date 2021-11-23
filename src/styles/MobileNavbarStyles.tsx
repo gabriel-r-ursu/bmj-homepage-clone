@@ -5,7 +5,7 @@ const MobileNavbarWrapper = styled.div<{ clicked: boolean }>`
 
   ${(props) =>
     props.clicked
-      ? "position: relative; display: block; padding-top: 4rem; width: 260px; margin: 0 auto;"
+      ? "position: relative; display: block; padding-top: 4rem; width: 100%; margin: 0 auto;"
       : ""}
 
   background-color: #2a6ebb;

@@ -12,6 +12,7 @@ const NavbarWrapper = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
     gap: 0.5em;
     width: 100%;
     height: 100%;

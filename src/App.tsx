@@ -18,11 +18,17 @@ import Footer from "./components/Footer";
 function App() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   return (
     <MainContainer clicked={click}>
       <GlobalStyle />
-      <img src={XSHeaderAd} alt="mock header ad" className="advertisment" />
+      <img
+        src={XSHeaderAd}
+        alt="mock header ad"
+        className="advertisment"
+        onClick={closeMobileMenu}
+      />
       <p>Intended for healthcare professionals</p>
       <HeaderWrapper>
         <Header />
@@ -31,7 +37,7 @@ function App() {
         <MobileNavbar clicked={click} />
         <div>
           <Navbar handleClick={handleClick} />
-          <AppWrapper>
+          <AppWrapper onClick={closeMobileMenu}>
             <Headlines />
             <LatestArticles />
             <Studies />
