@@ -1,5 +1,5 @@
 import { headline } from "../../data/sitedata.json";
-import { headlineImages } from "../../img";
+import siteImages from "../../img";
 
 interface MainHeadlineProps {
   title: string;
@@ -20,7 +20,7 @@ const SecondaryHeadlines: React.FC = (): JSX.Element => {
             title={newsArticle.title}
             bio={newsArticle.bio}
             //@ts-ignore
-            img={headlineImages[newsArticle.img]}
+            img={siteImages[newsArticle.img]}
             category={newsArticle.category}
             date={newsArticle.publishDate}
           />

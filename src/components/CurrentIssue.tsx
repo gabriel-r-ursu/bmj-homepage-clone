@@ -1,7 +1,6 @@
 import CurrentIssueWrapper from "../styles/CurrentIssueStyles";
 import { magazine } from "../data/sitedata.json";
-import { latestIssue } from "../img";
-import PrefooterAd from "../img/ads/prefooter-ad.png";
+import siteImages from "../img";
 
 interface articleProps {
   data: any;
@@ -39,7 +38,7 @@ const CurrentIssue: React.FC = (): JSX.Element => {
         <div className="page-and-articles">
           <div className="issue-img-btn">
             {/*@ts-ignore*/}
-            <img src={latestIssue[magazine.img]} alt="lastet issue" />
+            <img src={siteImages[magazine.img]} alt="lastet issue" />
             <div className="issue-buttons">
               <span>All Issues</span>
               <span>Past Issues</span>
@@ -49,7 +48,7 @@ const CurrentIssue: React.FC = (): JSX.Element => {
         </div>
       </div>
       <div className="advertisment">
-        <img src={PrefooterAd} alt="advertisment" />
+        <img src={siteImages["./prefooter-ad.png"]} alt="advertisment" />
       </div>
     </CurrentIssueWrapper>
   );

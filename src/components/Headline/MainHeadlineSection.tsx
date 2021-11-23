@@ -1,6 +1,6 @@
 import React from "react";
 import { headline } from "../../data/sitedata.json";
-import { headerImage } from "../../img";
+import siteImages from "../../img";
 import SecondaryHeadlines from "./SecondaryHeadlines";
 
 const MainHeadlineSection: React.FC = (): JSX.Element => {
@@ -13,7 +13,7 @@ const MainHeadlineSection: React.FC = (): JSX.Element => {
         <div className="main-headline">
           <img
             //@ts-ignore
-            src={headerImage[mainHeadlineData.img]}
+            src={siteImages[mainHeadlineData.img]}
             alt="baby bottle"
             className="headline-image"
           />

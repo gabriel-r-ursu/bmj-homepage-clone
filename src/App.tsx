@@ -6,7 +6,7 @@ import MobileNavbar from "./components/Navbar/MobileNavbar";
 import Navbar from "./components/Navbar/Navbar";
 import { HeaderWrapper } from "./styles/HeaderStyles";
 import Header from "./components/Header";
-import XSHeaderAd from "./img/ads/XS-header-ad.png";
+import siteImages from "./img";
 import Headlines from "./components/Headline/Headlines";
 import LatestArticles from "./components/LatestArticles";
 import Studies from "./components/Studies/Studies";
@@ -24,7 +24,7 @@ function App() {
     <MainContainer clicked={click}>
       <GlobalStyle />
       <img
-        src={XSHeaderAd}
+        src={siteImages["./header-ad.png"]}
         alt="mock header ad"
         className="advertisment"
         onClick={closeMobileMenu}

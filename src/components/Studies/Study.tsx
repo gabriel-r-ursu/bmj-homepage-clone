@@ -1,5 +1,5 @@
 import React from "react";
-import { studiesImages } from "../../img";
+import siteImages from "../../img";
 
 interface StudyProps {
   data: any;
@@ -15,7 +15,7 @@ const Article: React.FC<StudyProps> = ({ data }) => {
             <div className="article-details">
               <div className="article-img">
                 {/*@ts-ignore*/}
-                <img src={studiesImages[headline.img]} alt="img" />
+                <img src={siteImages[headline.img]} alt="img" />
               </div>
               <div className="article-description">
                 <p>{headline.description}</p>

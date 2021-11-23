@@ -1,6 +1,6 @@
 import LatestArticlesWrapper from "../styles/LatestArticlesStyles";
 import { latest } from "../data/sitedata.json";
-import { latestArticlesImages } from "../img";
+import siteImages from "../img";
 import React from "react";
 
 interface SectionProps {
@@ -23,7 +23,7 @@ const LatestArticles: React.FC = (): JSX.Element => {
               divClass={section.class}
               category={section.category}
               //@ts-ignore
-              img={latestArticlesImages[section.img]}
+              img={siteImages[section.img]}
               titles={section.titles}
             />
           );

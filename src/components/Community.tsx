@@ -1,6 +1,6 @@
 import CommunityWrapper from "../styles/CommunityStyles";
 import { community, altmetrics } from "../data/sitedata.json";
-import { altmetricsImages } from "../img";
+import siteImages from "../img";
 
 interface CommunityProps {
   data: string[];
@@ -91,7 +91,7 @@ const Altmetric: React.FC<AltmetricsProps> = ({ altdata }): JSX.Element => {
           <div key={title.title} className="altmetric">
             <div className="alt-data-img">
               {/*@ts-ignore*/}
-              <img src={altmetricsImages[title.img]} alt="metric" />
+              <img src={siteImages[title.img]} alt="metric" />
             </div>
             <div className="title-and-date">
               <p>{title.title}</p>

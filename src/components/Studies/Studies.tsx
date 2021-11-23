@@ -1,7 +1,7 @@
 import StudiesWrapper from "../../styles/StudiesStyles";
 import Study from "./Study";
 import { cop26, covid19, jobs } from "../../data/sitedata.json";
-import MidPageAD from "../../img/ads/mid-page-ad.png";
+import siteImages from "../../img";
 import ArticlesWithoutImages from "../ArticlesWithoutImages";
 
 const Studies: React.FC = (): JSX.Element => {
@@ -10,7 +10,7 @@ const Studies: React.FC = (): JSX.Element => {
       <div className="study-section">
         <Study data={cop26} />
         <div className="mid-page-ad">
-          <img src={MidPageAD} alt="advertisement" />
+          <img src={siteImages["./mid-page-ad.png"]} alt="advertisement" />
         </div>
       </div>
       <div className="study-section">

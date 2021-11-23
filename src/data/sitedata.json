@@ -391,5 +391,17 @@
       "options": ["Email alerts", "Activate subscription"]
     },
     { "category": "Information", "options": ["Contact us", "Complaints"] }
+  ],
+
+  "socials": ["Twitter", "Facebook", "Youtube", "Pinterest", "RssFeed"],
+
+  "tnc": [
+    "Cookie Settings",
+    "Cookie Policy",
+    "Privacy Policy",
+    "Website T&Cs",
+    "Revenue Sources",
+    "HighWire Press",
+    "Sitemap"
   ]
 }

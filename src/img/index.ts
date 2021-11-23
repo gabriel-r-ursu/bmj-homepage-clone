@@ -15,42 +15,30 @@ import Alt2 from "./alt2.png";
 import Alt3 from "./alt3.png";
 import Alt4 from "./alt4.png";
 
-const headerImage = { "/baby-bottle.jpeg": BabyBottle };
+import MidPageAd from "./mid-page-ad.png";
+import HeaderAd from "./header-ad.png";
+import PreFooterAd from "./prefooter-ad.png";
 
-const headlineImages = {
+const siteImages = {
+  "/baby-bottle.jpeg": BabyBottle,
   "./operation.jpg": Operation,
   "./microphone.jpg": Microphone,
   "./covid-vaccine.jpg": CovidVaccine,
-};
-
-const latestArticlesImages = {
   "./singapore-vaccine-advert.jpg": VaccineAd,
-  "./operation.jpg": Operation,
   "./defibrilator.jpg": Defibrilator,
   "./ct-scan.jpg": CTScan,
-};
-
-const studiesImages = {
   "./data1.jpg": Data1,
   "./planet-stretcher.jpg": Planet,
   "./covid-vaccine-production.jpg": CovidProduction,
   "./pregnant-woman-vaccinated.jpg": VaccinatedWoman,
-};
-
-const latestIssue = { "./latest-issue.jpg": LatestIssue };
-
-const altmetricsImages = {
+  "./latest-issue.jpg": LatestIssue,
   "./alt1.png": Alt1,
   "./alt2.png": Alt2,
   "./alt3.png": Alt3,
   "./alt4.png": Alt4,
+  "./mid-page-ad.png": MidPageAd,
+  "./header-ad.png": HeaderAd,
+  "./prefooter-ad.png": PreFooterAd,
 };
 
-export {
-  headerImage,
-  headlineImages,
-  latestArticlesImages,
-  studiesImages,
-  latestIssue,
-  altmetricsImages,
-};
+export default siteImages;
