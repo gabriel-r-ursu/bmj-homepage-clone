@@ -1,6 +1,6 @@
-import CurrentIssueWrapper from "../styles/CurrentIssueStyles";
-import { magazine } from "../data/sitedata.json";
-import siteImages from "../img";
+import CurrentIssueWrapper from "../../styles/CurrentIssueStyles";
+import { magazine } from "../../data/sitedata.json";
+import siteImages from "../../img";
 
 interface articleProps {
   data: any;

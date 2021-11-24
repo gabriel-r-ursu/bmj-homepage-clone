@@ -8,6 +8,7 @@ const FooterWrapper = styled.footer`
   background-color: #2a6ebb;
 
   .wrapper {
+    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
   }
@@ -35,7 +36,6 @@ const FooterWrapper = styled.footer`
 
     .social {
       display: flex;
-      gap: 0.5rem;
 
       &:hover {
         cursor: pointer;

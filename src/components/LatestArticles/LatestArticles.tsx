@@ -1,6 +1,6 @@
-import LatestArticlesWrapper from "../styles/LatestArticlesStyles";
-import { latest } from "../data/sitedata.json";
-import siteImages from "../img";
+import LatestArticlesWrapper from "../../styles/LatestArticlesStyles";
+import { latest } from "../../data/sitedata.json";
+import siteImages from "../../img";
 import React from "react";
 
 interface SectionProps {

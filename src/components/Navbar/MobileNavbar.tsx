@@ -1,5 +1,5 @@
 import Navigation from "./Navigation";
-import Header from "../Header";
+import Header from "../Header/Header";
 import MobileNavbarWrapper from "../../styles/MobileNavbarStyles";
 import { MobileNavigation } from "../../styles/NavigationStyles";
 import { MobileHeaderWrapper } from "../../styles/HeaderStyles";

@@ -1,14 +1,8 @@
-import ArticleWithoutImages from "../styles/ArticlesWithoutImagesStyles";
-
-interface ArticlesWithoutImagesProps {
-  data: any;
-}
-
-interface ArticleProps {
-  title: string;
-  category: string;
-  publishDate?: string;
-}
+import ArticleWithoutImages from "../../styles/ArticlesWithoutImagesStyles";
+import {
+  ArticlesWithoutImagesProps,
+  ArticleProps,
+} from "../../interfaces/ArticleWithoutImagesInterface";
 
 const ArticlesWithoutImages: React.FC<ArticlesWithoutImagesProps> = ({
   data,

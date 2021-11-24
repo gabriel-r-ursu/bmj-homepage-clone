@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 
-
   p {
     line-height: 1.5;
     font-size: 0.9rem;

@@ -2,7 +2,7 @@ import StudiesWrapper from "../../styles/StudiesStyles";
 import Study from "./Study";
 import { cop26, covid19, jobs } from "../../data/sitedata.json";
 import siteImages from "../../img";
-import ArticlesWithoutImages from "../ArticlesWithoutImages";
+import ArticlesWithoutImages from "../ArticlesWithoutImages/ArticlesWithoutImages";
 
 const Studies: React.FC = (): JSX.Element => {
   return (

@@ -1,19 +1,17 @@
 import { useState } from "react";
 import GlobalStyle from "./styles/globalStyles";
-import AppWrapper from "./styles/AppStyles";
 import MainContainer from "./styles/MainContainer";
+import AppWrapper from "./styles/AppStyles";
+import HeaderContent from "./components/Header/HeaderContent";
 import MobileNavbar from "./components/Navbar/MobileNavbar";
 import Navbar from "./components/Navbar/Navbar";
-import { HeaderWrapper } from "./styles/HeaderStyles";
-import Header from "./components/Header";
-import siteImages from "./img";
 import Headlines from "./components/Headline/Headlines";
-import LatestArticles from "./components/LatestArticles";
+import LatestArticles from "./components/LatestArticles/LatestArticles";
 import Studies from "./components/Studies/Studies";
-import CurrentIssue from "./components/CurrentIssue";
-import MostRead from "./components/MostRead";
-import Community from "./components/Community";
-import Footer from "./components/Footer";
+import CurrentIssue from "./components/CurrentIssue/CurrentIssue";
+import MostRead from "./components/MostRead/MostRead";
+import Community from "./components/Community/Community";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -23,16 +21,7 @@ function App() {
   return (
     <MainContainer clicked={click}>
       <GlobalStyle />
-      <img
-        src={siteImages["./header-ad.png"]}
-        alt="mock header ad"
-        className="advertisment"
-        onClick={closeMobileMenu}
-      />
-      <p>Intended for healthcare professionals</p>
-      <HeaderWrapper>
-        <Header />
-      </HeaderWrapper>
+      <HeaderContent closeMobileMenu={closeMobileMenu} />
       <div className="mobile">
         <MobileNavbar clicked={click} />
         <div>

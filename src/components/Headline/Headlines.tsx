@@ -1,7 +1,7 @@
 import React from "react";
 import HeadlinesWrapper from "../../styles/HeadlinesStyles";
 import MainHeadlineSection from "./MainHeadlineSection";
-import ArticlesWithoutImages from "../ArticlesWithoutImages";
+import ArticlesWithoutImages from "../ArticlesWithoutImages/ArticlesWithoutImages";
 import { headline } from "../../data/sitedata.json";
 
 const Headlines: React.FC = (): JSX.Element => {

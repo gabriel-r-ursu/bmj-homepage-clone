@@ -1,5 +1,5 @@
-import MostReadWrapper from "../styles/MostReadStyles";
-import { mostRead } from "../data/sitedata.json";
+import MostReadWrapper from "../../styles/MostReadStyles";
+import { mostRead } from "../../data/sitedata.json";
 
 const MostRead: React.FC = (): JSX.Element => {
   return (
