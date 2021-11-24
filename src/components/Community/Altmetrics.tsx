@@ -20,7 +20,6 @@ const Altmetric: React.FC<AltmetricsProps> = ({ altdata }): JSX.Element => {
         return (
           <div key={title.title} className="altmetric">
             <div className="alt-data-img">
-              {/*@ts-ignore*/}
               <img src={siteImages[title.img]} alt="metric" />
             </div>
             <div className="title-and-date">

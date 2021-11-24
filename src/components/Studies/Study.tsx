@@ -14,7 +14,6 @@ const Article: React.FC<StudyProps> = ({ data }) => {
             <h3>{headline.title}</h3>
             <div className="article-details">
               <div className="article-img">
-                {/*@ts-ignore*/}
                 <img src={siteImages[headline.img]} alt="img" />
               </div>
               <div className="article-description">

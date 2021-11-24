@@ -22,7 +22,6 @@ const LatestArticles: React.FC = (): JSX.Element => {
               key={section.category}
               divClass={section.class}
               category={section.category}
-              //@ts-ignore
               img={siteImages[section.img]}
               titles={section.titles}
             />

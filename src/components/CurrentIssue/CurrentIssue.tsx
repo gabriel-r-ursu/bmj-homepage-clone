@@ -37,7 +37,6 @@ const CurrentIssue: React.FC = (): JSX.Element => {
         </div>
         <div className="page-and-articles">
           <div className="issue-img-btn">
-            {/*@ts-ignore*/}
             <img src={siteImages[magazine.img]} alt="lastet issue" />
             <div className="issue-buttons">
               <span>All Issues</span>

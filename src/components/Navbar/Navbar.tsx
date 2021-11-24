@@ -4,10 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import thebmjlogo from "../../img/thebmjlogo.png";
 import Navigation from "./Navigation";
 import { NavigationWrapper } from "../../styles/NavigationStyles";
-
-interface navbarprops {
-  handleClick: () => void;
-}
+import { navbarprops } from "../../interfaces/NavbarInterface";
 
 const Navbar: React.FC<navbarprops> = ({ handleClick }): JSX.Element => {
   return (

@@ -19,7 +19,7 @@ import MidPageAd from "./mid-page-ad.png";
 import HeaderAd from "./header-ad.png";
 import PreFooterAd from "./prefooter-ad.png";
 
-const siteImages = {
+const siteImages: { [key: string]: string } = {
   "/baby-bottle.jpeg": BabyBottle,
   "./operation.jpg": Operation,
   "./microphone.jpg": Microphone,

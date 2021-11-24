@@ -19,7 +19,6 @@ const SecondaryHeadlines: React.FC = (): JSX.Element => {
             key={newsArticle.title}
             title={newsArticle.title}
             bio={newsArticle.bio}
-            //@ts-ignore
             img={siteImages[newsArticle.img]}
             category={newsArticle.category}
             date={newsArticle.publishDate}
