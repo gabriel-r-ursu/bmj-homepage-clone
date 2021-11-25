@@ -35,7 +35,8 @@ const CommunityWrapper = styled.section`
 
   .view-more p,
   .vote-buttons p,
-  .related-content p {
+  .related-content p,
+  .return {
     color: #2a6eba;
 
     &:hover {
@@ -73,6 +74,7 @@ const CommunityWrapper = styled.section`
       border-radius: 5px;
       color: white;
       background-color: #2a6eba;
+      cursor: pointer;
     }
   }
 
@@ -112,6 +114,55 @@ const CommunityWrapper = styled.section`
     }
   }
 
+  .results {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  progress {
+    width: 100%;
+    height: 1.2rem;
+    appearance: none;
+    border: 1px solid #e5e6e6;
+  }
+
+  .tweet-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #389cf0;
+    color: white;
+    border-radius: 20px;
+    height: 20px;
+    width: 70px;
+
+    cursor: pointer;
+  }
+
+  .twitter-icon {
+    color: white;
+    height: 15px;
+  }
+
+  .tweet {
+    font-size: 12px;
+    color: white;
+  }
+
+  .return {
+    align-self: center;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: white;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-color: #2a6eba;
+  }
+
   @media (min-width: 600px) {
     background-color: #f2f2f2;
 
@@ -120,6 +171,7 @@ const CommunityWrapper = styled.section`
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
     }
+
     .poll {
       display: flex;
       flex-direction: column;

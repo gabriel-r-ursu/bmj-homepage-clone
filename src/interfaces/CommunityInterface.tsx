@@ -5,3 +5,7 @@ export interface CommunityProps {
 export interface AltmetricsProps {
   altdata: { title: string; img: string; date: string }[];
 }
+
+export interface PollProps {
+  click: () => void;
+}
